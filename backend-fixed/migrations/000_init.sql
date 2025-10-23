@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS media (
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    type INTEGER
+);
+
+CREATE TABLE IF NOT EXISTS type (
+    id INTEGER PRIMARY KEY,
+    name TEXT
+);
